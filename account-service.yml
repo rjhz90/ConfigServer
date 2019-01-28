@@ -3,17 +3,17 @@ greeting: "안녕하세요"
 ---
 
 spring:
-  profile: stage
+  profiles: stage
 greeting: "스테이징"
 
 ---
 
 spring:
-  profile: dev
+  profiles: dev
 greeting: "데브"
 
 ---
 
 spring:
-  profile: local
+  profiles: local
 greeting: "로컬"
