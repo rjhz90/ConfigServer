@@ -1,19 +1,19 @@
-greeting: "안녕하세요"
+greeting: "Hello, Default"
 
 ---
 
 spring:
   profiles: stage
-greeting: "스테이징"
+greeting: "Hello, Stage"
 
 ---
 
 spring:
   profiles: dev
-greeting: "데브"
+greeting: "Hello, Dev"
 
 ---
 
 spring:
   profiles: local
-greeting: "로컬"
+greeting: "Hello, Local"
