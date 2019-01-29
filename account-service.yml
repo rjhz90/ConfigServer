@@ -1,19 +1,40 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 greeting: "Hello, Default."
 
 ---
 
 spring:
   profiles: stage
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 greeting: "Hello, Stage"
 
 ---
 
 spring:
   profiles: dev
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 greeting: "Hello, Dev"
 
 ---
 
 spring:
   profiles: local
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
 greeting: "Hello, Local"
